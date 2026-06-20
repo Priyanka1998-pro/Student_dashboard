@@ -1,44 +1,36 @@
-# 🎓 LearnHub Dashboard
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-LearnHub is a modern, responsive, and visually stunning learning management system (LMS) dashboard designed to help students track their courses, progress, learning streaks, and daily activities efficiently.
+## Getting Started
 
-## 🚀 Features
+First, run the development server:
 
-- **Personalized Welcome:** Dynamic greeting section for the user.
-- **Analytics Cards:** Quick view of enrolled courses, overall progress (%), achievements, and daily learning streaks.
-- **Course Tracking:** Visual progress bars for active courses like HTML5, CSS3 Flexbox/Grid, and Modern JavaScript.
-- **Daily Activity Overview:** A sleek bar chart showing study hours and weekly activity analytics.
-- **Recent Activity Log:** Keeps track of recently completed or started lessons.
-- **Sidebar Navigation:** Clean navigation menu with Overview, My Courses, Progress, and Settings options.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## 🛠️ Tech Stack
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- **Frontend:** Next.js (React.js), TypeScript
-- **Backend:** Supabase (Database & Authentication)
-- **Styling:** Tailwind CSS (with Dark Mode support)
-- **Icons & Visuals:** Lucide React & Custom Charts
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 💡 My Learning Journey & AI Collaboration
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Before starting this project, my core strength was in **HTML5, CSS3, and Vanilla JavaScript**. Moving into the **Next.js, TypeScript, and Supabase** ecosystem was a big step up for me. 
+## Learn More
 
-To bridge this gap and build a production-ready application, I collaborated with **AI tools**:
-- **My Contribution (60%):** I designed the layout, structured the application logic, managed state with React hooks, integrated Supabase database clients, and handled debugging.
-- **AI Tools Contribution (40%):** AI assisted me in generating clean Tailwind CSS configurations, setting up custom charts syntax, and implementing secure environment variable patterns.
+To learn more about Next.js, take a look at the following resources:
 
-### 🧠 Key Learnings from this Project:
-1. **Next.js & React Ecosystem:** Learned how component-based architecture and file-based routing work.
-2. **Backend Integration:** Successfully connected a frontend dashboard with a live Supabase database.
-3. **Environment Security:** Learned the critical importance of keeping API keys safe using `.env.local` files.
-4. **Prompt Engineering:** Improved my technical communication skills by prompting AI tools effectively to write cleaner, bug-free code.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 📦 Installation & Setup
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Follow these steps to run the project locally on your machine:
- **Install dependencies:**
-   npm install
- **Run the development server:**
-   npm run dev
+## Deploy on Vercel
 
-6. **Open in browser:**
-   Open [http://localhost:3000](http://localhost:3000) to see the live dashboard.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
